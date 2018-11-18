@@ -5,20 +5,20 @@ body {
 
 #oben,
 #unten {
-  background-color: #00cc99;
+  background-color: #6600cc;
   padding: 50px 50px 50px 50px;
 }
 
 #rechts {
-  background-color: #009900;
+  background-color: #3333cc;
   padding: 50px 50px 50px 50px;
 }
 #links {
-  background-color: #006600;
+  background-color: #333399;
   padding: 50px 50px 50px 50px;
 }
 #mitte {
-  background-color: #003300;
+  background-color: #000066;
   padding: 50px 50px 50px 50px;
 }
 .wrapper {
@@ -38,15 +38,22 @@ body {
     padding-bottom: 25px;
   }
   #links {
+    background-color: #006600;
     width: 14.29%;
     /* flex-grow: 1; geht nur wenn Platz übrig ist? */
   }
   #mitte {
+    background-color: #003300;
     width: 47.15%;
     /* flex-grow: 4; geht nur wenn Platz übrig ist? */
   }
   #rechts {
+    background-color: #009900;
     width: 28.51%;
     /* flex-grow: 2; geht nur wenn Platz übrig ist? */
+  }
+  #oben,
+  #unten {
+    background-color: #00cc99;
   }
 }
