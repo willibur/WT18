@@ -1,0 +1,52 @@
+body {
+  background-color: #ff5f00; /* HTW-orange */
+  font-size: 1rem;
+}
+
+#oben,
+#unten {
+  background-color: #00cc99;
+  padding: 50px 50px 50px 50px;
+}
+
+#rechts {
+  background-color: #009900;
+  padding: 50px 50px 50px 50px;
+}
+#links {
+  background-color: #006600;
+  padding: 50px 50px 50px 50px;
+}
+#mitte {
+  background-color: #003300;
+  padding: 50px 50px 50px 50px;
+}
+.wrapper {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: white;
+}
+@media screen and (min-width: 720px) {
+  body {
+    background-color: #0082d1; /* HTW-blau */
+    font-size: 1.2rem;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  #links {
+    width: 14.29%;
+    /* flex-grow: 1; geht nur wenn Platz übrig ist? */
+  }
+  #mitte {
+    width: 47.15%;
+    /* flex-grow: 4; geht nur wenn Platz übrig ist? */
+  }
+  #rechts {
+    width: 28.51%;
+    /* flex-grow: 2; geht nur wenn Platz übrig ist? */
+  }
+}
