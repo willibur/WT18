@@ -1,0 +1,31 @@
+body {
+  font-family: Verdana;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+table,
+td {
+  border: 1px solid #a7a7a7;
+  border-collapse: collapse;
+}
+th {
+  border: 1px solid #a7a7a7;
+  background-color: #0b054d;
+  color: white;
+  padding: 5px 10px;
+}
+td {
+  text-align: right;
+}
+tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+tr:nth-child(odd) {
+  background-color: #efefef;
+}
+tr:hover {
+  background-color: #e8e3e8;
+  color: #951ede;
+}
